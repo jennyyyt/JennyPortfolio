@@ -55,6 +55,8 @@
   margin: 0;
 }
 
+
+
 * p {
   font-size: 1.4rem;
   margin: 0;
@@ -395,13 +397,18 @@ i {
   padding: 6rem 4.5rem 0 4.5rem;
 }
 
+
+
 .hero h1 {
-  font-size: 10rem;
+  font-size: 9rem;
   margin: 0;
   padding: 0;
   /* text-shadow: 1px 1px 20px rgb(154, 154, 154); */
 }
 
+.hero p{
+  color: var(--grey);
+}
 @media screen and (max-width: 680px) {
   .hero h1 {
     font-size: 6.5rem;
@@ -955,4 +962,49 @@ i {
   text-align: center;
   font-size: 0.7rem;
   color: var(--offwhite);
+}
+
+
+/* ------------- */
+
+.DP-container{
+  padding: 1rem 4.5rem 0 4.5rem;
+  height: 650vh;
+}
+
+
+.DP-container h2{
+  margin: 0;
+  font-size: 5rem;
+  color: var(--offwhite);
+  
+}
+
+.DP-container h4{
+  font-family: "Oswald", sans-serif;
+  color: var(--maintext);
+  font-size: 2.5rem;
+}
+
+* h5{
+  margin: 0.5rem 0;
+  color: var(--offwhite);
+  font-size: 1.8rem;
+  font-style: oblique;
+
+}
+
+.DP-hero img{
+  background-size: cover;
+  width: 100%; 
+}
+
+
+.DP-brief{
+  height: 30vh;
+}
+
+.DP-process img{
+  height: 20%;
+  width: 50%;
 }
